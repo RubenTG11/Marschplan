@@ -1,5 +1,1092 @@
 // Generate sample data with addresses per day
-const marschplanData = generateSampleData();
+const marschplanData = {
+    "FREITAG": [
+        {
+            "strasse": "Hauptstraße",
+            "hausnummer": "67",
+            "uhrzeit": "17:19",
+            "jahrgang": "Alle",
+            "name": "Andreas Müller",
+            "farbe": "#ab83a1",
+            "spezialEvent": null,
+            "pause": 0,
+            "id": 11
+        },
+        {
+            "strasse": "Rosenweg",
+            "hausnummer": "63",
+            "uhrzeit": "17:29",
+            "jahrgang": "2014",
+            "name": "Peter Bauer",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 3,
+            "id": 12
+        },
+        {
+            "strasse": "Eichenstraße",
+            "hausnummer": "23",
+            "uhrzeit": "17:45",
+            "jahrgang": "2014, 2015",
+            "name": "Claudia Klein",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0,
+            "id": 13
+        },
+        {
+            "strasse": "Tulpenstraße",
+            "hausnummer": "16",
+            "uhrzeit": "18:04",
+            "jahrgang": "2015",
+            "name": null,
+            "farbe": "transparent",
+            "spezialEvent": "Autos nach Festplatz",
+            "pause": 5,
+            "id": 14
+        },
+        {
+            "strasse": "Marktplatz",
+            "hausnummer": "21",
+            "uhrzeit": "18:17",
+            "jahrgang": "2013",
+            "name": "Michael Wolf",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 30,
+            "id": 15
+        },
+        {
+            "strasse": "Eichenstraße",
+            "hausnummer": "80",
+            "uhrzeit": "18:35",
+            "jahrgang": "2014",
+            "name": "Thomas Klein",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0,
+            "id": 16
+        },
+        {
+            "strasse": "Eichenstraße",
+            "hausnummer": "50",
+            "uhrzeit": "18:45",
+            "jahrgang": "2015",
+            "name": "Josef Schwarz",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 6,
+            "id": 17
+        },
+        {
+            "strasse": "Mozartstraße",
+            "hausnummer": "51",
+            "uhrzeit": "19:02",
+            "jahrgang": "2014",
+            "name": "Peter Bauer",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 10,
+            "id": 18
+        },
+        {
+            "strasse": "Hauptstraße",
+            "hausnummer": "47",
+            "uhrzeit": "19:22",
+            "jahrgang": "2014, 2015",
+            "name": "Sabine Wagner",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 30,
+            "id": 19
+        },
+        {
+            "strasse": "Bahnhofstraße",
+            "hausnummer": "91",
+            "uhrzeit": "19:33",
+            "jahrgang": "2014, 2015",
+            "name": "Monika Zimmermann",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0,
+            "id": 110
+        },
+        {
+            "strasse": "Schillerstraße",
+            "hausnummer": "99",
+            "uhrzeit": "19:46",
+            "jahrgang": "2014",
+            "name": "Andrea Bauer",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 24,
+            "id": 111
+        },
+        {
+            "strasse": "Ahornstraße",
+            "hausnummer": "28",
+            "uhrzeit": "20:01",
+            "jahrgang": "2010, 2011",
+            "name": "Sabine Müller",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+            ,
+            "id": 112
+        },
+        {
+            "strasse": "Kastanienallee",
+            "hausnummer": "68",
+            "uhrzeit": "20:12",
+            "jahrgang": "2012, 2013",
+            "name": "Christine Richter",
+            "farbe": "#ff9f1c",
+            "spezialEvent": "Mittagspause",
+            "pause": 0,
+            "id": 113
+        },
+        {
+            "strasse": "Tannenweg",
+            "hausnummer": "18",
+            "uhrzeit": "20:32",
+            "jahrgang": "2013",
+            "name": "Elisabeth Schneider",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0,
+            "id": 114
+        },
+        {
+            "strasse": "Birkenallee",
+            "hausnummer": "49",
+            "uhrzeit": "20:44",
+            "jahrgang": "2012",
+            "name": "Thomas Hoffmann",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 25,
+            "id": 115
+        }
+    ],
+    "SAMSTAG": [
+        {
+            "strasse": "Beethovenallee",
+            "hausnummer": "32",
+            "uhrzeit": "09:16",
+            "jahrgang": "2015",
+            "name": "Wolfgang Fischer",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Kirchstraße",
+            "hausnummer": "65",
+            "uhrzeit": "09:30",
+            "jahrgang": "2010",
+            "name": "Sabine Zimmermann",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 23
+        },
+        {
+            "strasse": "Bergstraße",
+            "hausnummer": "16",
+            "uhrzeit": "09:40",
+            "jahrgang": "2010",
+            "name": null,
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Hauptstraße",
+            "hausnummer": "54",
+            "uhrzeit": "09:58",
+            "jahrgang": "2013",
+            "name": "Thomas Richter",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 2
+        },
+        {
+            "strasse": "Eichenstraße",
+            "hausnummer": "99",
+            "uhrzeit": "10:16",
+            "jahrgang": "2015",
+            "name": "Andrea Schwarz",
+            "farbe": "transparent",
+            "spezialEvent": "Umzug startet",
+            "pause": 23
+        },
+        {
+            "strasse": "Goetheweg",
+            "hausnummer": "78",
+            "uhrzeit": "10:31",
+            "jahrgang": "2010, 2011",
+            "name": "Thomas Meyer",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 15
+        },
+        {
+            "strasse": "Eichenstraße",
+            "hausnummer": "9",
+            "uhrzeit": "10:42",
+            "jahrgang": "2013",
+            "name": "Elisabeth Schröder",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Lindenweg",
+            "hausnummer": "26",
+            "uhrzeit": "10:56",
+            "jahrgang": "2011",
+            "name": "Martin Schneider",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 22
+        },
+        {
+            "strasse": "Rosenweg",
+            "hausnummer": "67",
+            "uhrzeit": "11:11",
+            "jahrgang": "Alle",
+            "name": "Andrea Klein",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Ulmenweg",
+            "hausnummer": "83",
+            "uhrzeit": "11:22",
+            "jahrgang": "2012",
+            "name": "Claudia Schneider",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Ahornstraße",
+            "hausnummer": "45",
+            "uhrzeit": "11:36",
+            "jahrgang": "2012, 2013",
+            "name": "Christine Schmidt",
+            "farbe": "transparent",
+            "spezialEvent": "Autos nach Festplatz",
+            "pause": 0
+        },
+        {
+            "strasse": "Kastanienallee",
+            "hausnummer": "77",
+            "uhrzeit": "11:51",
+            "jahrgang": "Alle",
+            "name": "Andreas Schmidt",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 20
+        },
+        {
+            "strasse": "Schillerstraße",
+            "hausnummer": "65",
+            "uhrzeit": "12:07",
+            "jahrgang": "2012",
+            "name": null,
+            "farbe": "#6a0572",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Tulpenstraße",
+            "hausnummer": "65",
+            "uhrzeit": "12:19",
+            "jahrgang": "2012",
+            "name": "Anna Becker",
+            "farbe": "transparent",
+            "spezialEvent": "Autos nach Schule",
+            "pause": 0
+        },
+        {
+            "strasse": "Bachstraße",
+            "hausnummer": "59",
+            "uhrzeit": "12:35",
+            "jahrgang": "2012, 2013",
+            "name": "Sabine Bauer",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 22
+        }
+    ],
+    "SONNTAG": [
+        {
+            "strasse": "Kirchstraße",
+            "hausnummer": "61",
+            "uhrzeit": "10:20",
+            "jahrgang": "2012",
+            "name": "Claudia Schmidt",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 19
+        },
+        {
+            "strasse": "Goetheweg",
+            "hausnummer": "73",
+            "uhrzeit": "10:38",
+            "jahrgang": "2014",
+            "name": "Wolfgang Wolf",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 27
+        },
+        {
+            "strasse": "Birkenallee",
+            "hausnummer": "74",
+            "uhrzeit": "10:48",
+            "jahrgang": "2011",
+            "name": "Peter Klein",
+            "farbe": "transparent",
+            "spezialEvent": "Umzug endet",
+            "pause": 0
+        },
+        {
+            "strasse": "Bachstraße",
+            "hausnummer": "20",
+            "uhrzeit": "10:59",
+            "jahrgang": "2010",
+            "name": "Martin Fischer",
+            "farbe": "transparent",
+            "spezialEvent": "Autos nach Bahnhof",
+            "pause": 0
+        },
+        {
+            "strasse": "Bachstraße",
+            "hausnummer": "53",
+            "uhrzeit": "11:16",
+            "jahrgang": "2013",
+            "name": "Petra Schulz",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Mozartstraße",
+            "hausnummer": "9",
+            "uhrzeit": "11:33",
+            "jahrgang": "2013",
+            "name": "Anna Schneider",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Rathausplatz",
+            "hausnummer": "71",
+            "uhrzeit": "11:43",
+            "jahrgang": "2014, 2015",
+            "name": "Sabine Schröder",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Tulpenstraße",
+            "hausnummer": "50",
+            "uhrzeit": "11:59",
+            "jahrgang": "2014, 2015",
+            "name": "Martin Richter",
+            "farbe": "#ffe66d",
+            "spezialEvent": null,
+            "pause": 5
+        },
+        {
+            "strasse": "Bahnhofstraße",
+            "hausnummer": "38",
+            "uhrzeit": "12:19",
+            "jahrgang": "2011",
+            "name": "Peter Klein",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 9
+        },
+        {
+            "strasse": "Beethovenallee",
+            "hausnummer": "73",
+            "uhrzeit": "12:36",
+            "jahrgang": "2012, 2013",
+            "name": "Petra Weber",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Eichenstraße",
+            "hausnummer": "24",
+            "uhrzeit": "12:55",
+            "jahrgang": "Alle",
+            "name": "Christine Zimmermann",
+            "farbe": "transparent",
+            "spezialEvent": "Kurze Pause",
+            "pause": 28
+        },
+        {
+            "strasse": "Birkenallee",
+            "hausnummer": "1",
+            "uhrzeit": "13:06",
+            "jahrgang": "2014, 2015",
+            "name": "Maria Richter",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 23
+        },
+        {
+            "strasse": "Beethovenallee",
+            "hausnummer": "43",
+            "uhrzeit": "13:26",
+            "jahrgang": "2010, 2011",
+            "name": "Peter Schröder",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 12
+        },
+        {
+            "strasse": "Ulmenweg",
+            "hausnummer": "67",
+            "uhrzeit": "13:36",
+            "jahrgang": "Alle",
+            "name": "Peter Fischer",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Goetheweg",
+            "hausnummer": "88",
+            "uhrzeit": "13:54",
+            "jahrgang": "2013",
+            "name": "Andreas Wolf",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 1
+        }
+    ],
+    "MONTAG": [
+        {
+            "strasse": "Goetheweg",
+            "hausnummer": "48",
+            "uhrzeit": "09:15",
+            "jahrgang": "2013",
+            "name": "Christian Wolf",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 24
+        },
+        {
+            "strasse": "Tannenweg",
+            "hausnummer": "91",
+            "uhrzeit": "09:32",
+            "jahrgang": "2012, 2013",
+            "name": "Anna Schneider",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 22
+        },
+        {
+            "strasse": "Tannenweg",
+            "hausnummer": "86",
+            "uhrzeit": "09:44",
+            "jahrgang": "2014, 2015",
+            "name": "Thomas Neumann",
+            "farbe": "transparent",
+            "spezialEvent": "Autos nach Festplatz",
+            "pause": 11
+        },
+        {
+            "strasse": "Kirchstraße",
+            "hausnummer": "28",
+            "uhrzeit": "10:02",
+            "jahrgang": "2015",
+            "name": null,
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Ulmenweg",
+            "hausnummer": "29",
+            "uhrzeit": "10:14",
+            "jahrgang": "2013",
+            "name": "Michael Schmidt",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Ulmenweg",
+            "hausnummer": "21",
+            "uhrzeit": "10:27",
+            "jahrgang": "2010, 2011",
+            "name": "Andrea Koch",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Kastanienallee",
+            "hausnummer": "56",
+            "uhrzeit": "10:47",
+            "jahrgang": "Alle",
+            "name": "Ursula Schröder",
+            "farbe": "#ff9f1c",
+            "spezialEvent": "Autos nach Schule",
+            "pause": 0
+        },
+        {
+            "strasse": "Beethovenallee",
+            "hausnummer": "6",
+            "uhrzeit": "11:01",
+            "jahrgang": "Alle",
+            "name": "Petra Schwarz",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 19
+        },
+        {
+            "strasse": "Schillerstraße",
+            "hausnummer": "22",
+            "uhrzeit": "11:16",
+            "jahrgang": "2012",
+            "name": "Martin Schulz",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 26
+        },
+        {
+            "strasse": "Bergstraße",
+            "hausnummer": "76",
+            "uhrzeit": "11:33",
+            "jahrgang": "2014, 2015",
+            "name": "Josef Neumann",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Eichenstraße",
+            "hausnummer": "31",
+            "uhrzeit": "11:47",
+            "jahrgang": "2013",
+            "name": "Maria Schäfer",
+            "farbe": "#ff9f1c",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Ulmenweg",
+            "hausnummer": "33",
+            "uhrzeit": "12:02",
+            "jahrgang": "2012",
+            "name": null,
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 17
+        },
+        {
+            "strasse": "Kirchstraße",
+            "hausnummer": "13",
+            "uhrzeit": "12:18",
+            "jahrgang": "Alle",
+            "name": "Thomas Schmidt",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Bergstraße",
+            "hausnummer": "50",
+            "uhrzeit": "12:36",
+            "jahrgang": "2010",
+            "name": "Monika Wolf",
+            "farbe": "transparent",
+            "spezialEvent": "Umzug endet",
+            "pause": 22
+        },
+        {
+            "strasse": "Bahnhofstraße",
+            "hausnummer": "93",
+            "uhrzeit": "12:49",
+            "jahrgang": "Alle",
+            "name": "Christine Koch",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 27
+        }
+    ],
+    "DIENSTAG": [
+        {
+            "strasse": "Hauptstraße",
+            "hausnummer": "95",
+            "uhrzeit": "09:19",
+            "jahrgang": "2010, 2011",
+            "name": "Maria Fischer",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Bergstraße",
+            "hausnummer": "43",
+            "uhrzeit": "09:36",
+            "jahrgang": "Alle",
+            "name": "Christian Weber",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Mozartstraße",
+            "hausnummer": "91",
+            "uhrzeit": "09:51",
+            "jahrgang": "2010, 2011",
+            "name": "Hans Schwarz",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 22
+        },
+        {
+            "strasse": "Birkenallee",
+            "hausnummer": "58",
+            "uhrzeit": "10:01",
+            "jahrgang": "2012, 2013",
+            "name": "Thomas Schwarz",
+            "farbe": "transparent",
+            "spezialEvent": "Autos nach Bahnhof",
+            "pause": 0
+        },
+        {
+            "strasse": "Marktplatz",
+            "hausnummer": "33",
+            "uhrzeit": "10:20",
+            "jahrgang": "2015",
+            "name": "Andrea Bauer",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Rathausplatz",
+            "hausnummer": "75",
+            "uhrzeit": "10:39",
+            "jahrgang": "2013",
+            "name": "Maria Meyer",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Bahnhofstraße",
+            "hausnummer": "13",
+            "uhrzeit": "10:51",
+            "jahrgang": "2013",
+            "name": "Christine Schwarz",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Eichenstraße",
+            "hausnummer": "58",
+            "uhrzeit": "11:02",
+            "jahrgang": "2012",
+            "name": "Thomas Neumann",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 29
+        },
+        {
+            "strasse": "Eichenstraße",
+            "hausnummer": "37",
+            "uhrzeit": "11:20",
+            "jahrgang": "2013",
+            "name": "Maria Schwarz",
+            "farbe": "#ff6b6b",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Schillerstraße",
+            "hausnummer": "41",
+            "uhrzeit": "11:35",
+            "jahrgang": "2014",
+            "name": "Sabine Schwarz",
+            "farbe": "transparent",
+            "spezialEvent": "Treffpunkt wechselt",
+            "pause": 21
+        },
+        {
+            "strasse": "Ahornstraße",
+            "hausnummer": "66",
+            "uhrzeit": "11:54",
+            "jahrgang": "2010",
+            "name": "Josef Wagner",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Marktplatz",
+            "hausnummer": "62",
+            "uhrzeit": "12:11",
+            "jahrgang": "2010, 2011",
+            "name": "Michael Bauer",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 29
+        },
+        {
+            "strasse": "Bahnhofstraße",
+            "hausnummer": "49",
+            "uhrzeit": "12:21",
+            "jahrgang": "2015",
+            "name": "Andreas Bauer",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Bahnhofstraße",
+            "hausnummer": "97",
+            "uhrzeit": "12:38",
+            "jahrgang": "2012",
+            "name": "Claudia Meyer",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 7
+        },
+        {
+            "strasse": "Eichenstraße",
+            "hausnummer": "18",
+            "uhrzeit": "12:56",
+            "jahrgang": "2012, 2013",
+            "name": null,
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 5
+        }
+    ],
+    "AUSWÄRTIGER_SAMSTAG": [
+        {
+            "strasse": "Kastanienallee",
+            "hausnummer": "93",
+            "uhrzeit": "09:20",
+            "jahrgang": "2012",
+            "name": "Monika Klein",
+            "farbe": "transparent",
+            "spezialEvent": "Autos nach Marktplatz",
+            "pause": 0
+        },
+        {
+            "strasse": "Kastanienallee",
+            "hausnummer": "36",
+            "uhrzeit": "09:40",
+            "jahrgang": "2015",
+            "name": "Martin Bauer",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 28
+        },
+        {
+            "strasse": "Schillerstraße",
+            "hausnummer": "97",
+            "uhrzeit": "09:52",
+            "jahrgang": "2011",
+            "name": "Josef Koch",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Tulpenstraße",
+            "hausnummer": "87",
+            "uhrzeit": "10:08",
+            "jahrgang": "2014",
+            "name": "Anna Bauer",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Rathausplatz",
+            "hausnummer": "84",
+            "uhrzeit": "10:20",
+            "jahrgang": "Alle",
+            "name": "Anna Zimmermann",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Rathausplatz",
+            "hausnummer": "65",
+            "uhrzeit": "10:34",
+            "jahrgang": "2012, 2013",
+            "name": "Christian Schröder",
+            "farbe": "transparent",
+            "spezialEvent": "Umzug endet",
+            "pause": 0
+        },
+        {
+            "strasse": "Marktplatz",
+            "hausnummer": "51",
+            "uhrzeit": "10:44",
+            "jahrgang": "2012, 2013",
+            "name": "Hans Hoffmann",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Beethovenallee",
+            "hausnummer": "88",
+            "uhrzeit": "11:04",
+            "jahrgang": "2014",
+            "name": "Maria Müller",
+            "farbe": "transparent",
+            "spezialEvent": "Umzug endet",
+            "pause": 4
+        },
+        {
+            "strasse": "Beethovenallee",
+            "hausnummer": "52",
+            "uhrzeit": "11:20",
+            "jahrgang": "2013",
+            "name": "Josef Meyer",
+            "farbe": "transparent",
+            "spezialEvent": "Treffpunkt wechselt",
+            "pause": 24
+        },
+        {
+            "strasse": "Bahnhofstraße",
+            "hausnummer": "3",
+            "uhrzeit": "11:39",
+            "jahrgang": "2010, 2011",
+            "name": "Petra Zimmermann",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Tulpenstraße",
+            "hausnummer": "32",
+            "uhrzeit": "11:49",
+            "jahrgang": "2015",
+            "name": "Michael Hoffmann",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 10
+        },
+        {
+            "strasse": "Rosenweg",
+            "hausnummer": "88",
+            "uhrzeit": "11:59",
+            "jahrgang": "2011",
+            "name": null,
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 24
+        },
+        {
+            "strasse": "Mozartstraße",
+            "hausnummer": "80",
+            "uhrzeit": "12:18",
+            "jahrgang": "2014",
+            "name": "Claudia Hoffmann",
+            "farbe": "transparent",
+            "spezialEvent": "Autos nach Marktplatz",
+            "pause": 0
+        },
+        {
+            "strasse": "Schillerstraße",
+            "hausnummer": "24",
+            "uhrzeit": "12:32",
+            "jahrgang": "2010, 2011",
+            "name": "Petra Wagner",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Bahnhofstraße",
+            "hausnummer": "95",
+            "uhrzeit": "12:52",
+            "jahrgang": "2010",
+            "name": "Sabine Schulz",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 4
+        }
+    ],
+    "AUSWÄRTIGER_SONNTAG": [
+        {
+            "strasse": "Marktplatz",
+            "hausnummer": "40",
+            "uhrzeit": "10:12",
+            "jahrgang": "2010, 2011",
+            "name": "Claudia Hoffmann",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Hauptstraße",
+            "hausnummer": "12",
+            "uhrzeit": "10:22",
+            "jahrgang": "2010, 2011",
+            "name": "Petra Müller",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Bachstraße",
+            "hausnummer": "36",
+            "uhrzeit": "10:41",
+            "jahrgang": "2010, 2011",
+            "name": "Ursula Schwarz",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Birkenallee",
+            "hausnummer": "15",
+            "uhrzeit": "10:54",
+            "jahrgang": "2015",
+            "name": "Andrea Schneider",
+            "farbe": "#4ecdc4",
+            "spezialEvent": null,
+            "pause": 10
+        },
+        {
+            "strasse": "Kastanienallee",
+            "hausnummer": "22",
+            "uhrzeit": "11:05",
+            "jahrgang": "Alle",
+            "name": "Andreas Müller",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Hauptstraße",
+            "hausnummer": "76",
+            "uhrzeit": "11:22",
+            "jahrgang": "2012",
+            "name": "Anna Richter",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 2
+        },
+        {
+            "strasse": "Rosenweg",
+            "hausnummer": "68",
+            "uhrzeit": "11:34",
+            "jahrgang": "2015",
+            "name": "Monika Meyer",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Birkenallee",
+            "hausnummer": "25",
+            "uhrzeit": "11:50",
+            "jahrgang": "2010, 2011",
+            "name": "Thomas Schneider",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Birkenallee",
+            "hausnummer": "16",
+            "uhrzeit": "12:10",
+            "jahrgang": "2012, 2013",
+            "name": "Anna Schneider",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 13
+        },
+        {
+            "strasse": "Eichenstraße",
+            "hausnummer": "25",
+            "uhrzeit": "12:30",
+            "jahrgang": "2012, 2013",
+            "name": "Stefan Richter",
+            "farbe": "transparent",
+            "spezialEvent": "Treffpunkt wechselt",
+            "pause": 1
+        },
+        {
+            "strasse": "Ulmenweg",
+            "hausnummer": "68",
+            "uhrzeit": "12:49",
+            "jahrgang": "2010, 2011",
+            "name": null,
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 6
+        },
+        {
+            "strasse": "Lindenweg",
+            "hausnummer": "53",
+            "uhrzeit": "13:04",
+            "jahrgang": "2014",
+            "name": "Elisabeth Schäfer",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 7
+        },
+        {
+            "strasse": "Schillerstraße",
+            "hausnummer": "45",
+            "uhrzeit": "13:19",
+            "jahrgang": "2015",
+            "name": "Christine Schröder",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 16
+        },
+        {
+            "strasse": "Goetheweg",
+            "hausnummer": "81",
+            "uhrzeit": "13:37",
+            "jahrgang": "2011",
+            "name": "Stefan Schulz",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 0
+        },
+        {
+            "strasse": "Tulpenstraße",
+            "hausnummer": "32",
+            "uhrzeit": "13:53",
+            "jahrgang": "2014, 2015",
+            "name": "Christian Zimmermann",
+            "farbe": "transparent",
+            "spezialEvent": null,
+            "pause": 1
+        }
+    ]
+};
+
+getInitialData();
+
+const socket = new WebSocket('ws://217.160.125.102:80');
+        
+
 
 // DOM elements
 const daySelection = document.getElementById('day-selection');
@@ -72,7 +1159,6 @@ backToAddressesBtn.addEventListener('click', () => {
     currentView = 'address-selection';
     clearInterval(delayUpdateInterval);
     hideRouteSection();
-    stopWatchingUserLocation();
 });
 
 hideRouteBtn.addEventListener('click', () => {
@@ -93,6 +1179,7 @@ backFromFullRouteBtn.addEventListener('click', () => {
 prevBtn.addEventListener('click', () => {
     if (currentIndex > 0) {
         currentIndex--;
+        sendUpdatedAdress(currentIndex);
         updateNavigationView();
         hideRouteSection();
     }
@@ -101,6 +1188,7 @@ prevBtn.addEventListener('click', () => {
 nextBtn.addEventListener('click', () => {
     if (currentIndex < addresses.length - 1) {
         currentIndex++;
+        sendUpdatedAdress(currentIndex);
         updateNavigationView();
         hideRouteSection();
     }
@@ -177,11 +1265,61 @@ function renderAddressList(searchTerm = '') {
         card.addEventListener('click', () => {
             currentIndex = index;
             showNavigationView();
+            sendUpdatedAdress(index);
         });
 
         addressesList.appendChild(card);
     });
 }
+
+async function getInitialData(){
+    try {
+        const response = await fetch('http://217.160.125.102:80/');
+        
+        if (!response.ok) {
+          throw new Error(`HTTP-Fehler: ${response.status}`);
+        }
+    
+        const data = await response.json();
+
+        if(data != null){
+            const jsonData = JSON.parse(data);
+            const id = jsonData.id + '';
+
+            selectedDay = jsonData.day;
+            currentIndex = parseInt(id.substring(1), 0)-1;
+            
+            showAddressSelection();
+            showNavigationView();
+
+        }
+
+        
+        console.log(data);
+      } catch (err) {
+        console.error('❌ Fehler beim Abrufen der Daten:', err.message);
+      }
+}
+
+socket.onmessage = (event) => {
+    const data = JSON.parse(JSON.parse(event.data));
+    const id = data.id + '';
+    const newIndex = data.index;
+
+    console.log(currentIndex + " : " + newIndex);
+
+      if(currentIndex != newIndex){
+          selectedDay = data.day;
+          currentIndex = newIndex;
+          showAddressSelection();
+          showNavigationView();
+          updateNavigationView();
+        hideRouteSection();
+      }
+};
+
+socket.onopen = () => console.log('WebSocket verbunden');
+socket.onerror = (e) => console.error('WebSocket Fehler:', e);
 
 function showNavigationView() {
     addressSelection.classList.add('hidden');
@@ -191,7 +1329,6 @@ function showNavigationView() {
     updateNavigationView();
     startDelayUpdates();
     hideRouteSection();
-    startWatchingUserLocation();
 }
 
 function updateNavigationView() {
@@ -297,11 +1434,6 @@ function initMap() {
             strokeWeight: 5
         }
     });
-    
-    // Add user location marker if available
-    if (currentUserLocation) {
-        addUserLocationMarker(map, currentUserLocation);
-    }
 }
 
 function initFullMap() {
@@ -327,11 +1459,6 @@ function initFullMap() {
             strokeWeight: 5
         }
     });
-    
-    // Add user location marker if available
-    if (currentUserLocation) {
-        addUserLocationMarker(fullMap, currentUserLocation);
-    }
 }
 
 function calculateRoute(originAddress, destinationAddress) {
@@ -358,10 +1485,6 @@ function calculateRoute(originAddress, destinationAddress) {
             routeDistanceEl.textContent = leg.distance.text;
             routeDurationEl.textContent = leg.duration.text;
             
-            // If we have user location, add it to the map
-            if (currentUserLocation) {
-                addUserLocationMarker(map, currentUserLocation);
-            }
         } else {
             alert('Routenberechnung fehlgeschlagen: ' + status);
             routeDistanceEl.textContent = 'Fehler';
@@ -450,10 +1573,6 @@ function calculateFullRoute() {
             fullRouteDistanceEl.textContent = `${distanceKm} km`;
             fullRouteDurationEl.textContent = `${durationMin} Minuten`;
             
-            // If we have user location, add it to the map
-            if (currentUserLocation) {
-                addUserLocationMarker(fullMap, currentUserLocation);
-            }
         } else {
             alert('Routenberechnung fehlgeschlagen: ' + status);
             fullRouteDistanceEl.textContent = 'Fehler';
@@ -625,203 +1744,6 @@ function formatDayName(day) {
     return day.replace('_', ' ');
 }
 
-// User location functions
-function startWatchingUserLocation() {
-    if (navigator.geolocation) {
-        // Request permission and start watching position
-        userLocationWatchId = navigator.geolocation.watchPosition(
-            updateUserLocation,
-            handleLocationError,
-            { 
-                enableHighAccuracy: true, 
-                maximumAge: 10000, 
-                timeout: 10000 
-            }
-        );
-    }
-}
-
-function stopWatchingUserLocation() {
-    if (userLocationWatchId !== null) {
-        navigator.geolocation.clearWatch(userLocationWatchId);
-        userLocationWatchId = null;
-    }
-}
-
-function updateUserLocation(position) {
-    const userLocation = {
-        lat: position.coords.latitude,
-        lng: position.coords.longitude
-    };
-    
-    currentUserLocation = userLocation;
-    
-    // Update user marker on maps if they exist
-    if (map && routeSection.classList.contains('hidden') === false) {
-        addUserLocationMarker(map, userLocation);
-    }
-    
-    if (fullMap && fullRouteView.classList.contains('hidden') === false) {
-        addUserLocationMarker(fullMap, userLocation);
-    }
-}
-
-function addUserLocationMarker(mapInstance, location) {
-    // Remove existing user marker if it exists
-    if (userMarker) {
-        userMarker.setMap(null);
-    }
-    
-    // Create a custom marker for user location
-    userMarker = new google.maps.Marker({
-        position: location,
-        map: mapInstance,
-        icon: {
-            path: google.maps.SymbolPath.CIRCLE,
-            fillColor: '#4285F4',
-            fillOpacity: 1,
-            strokeColor: '#FFFFFF',
-            strokeWeight: 2,
-            scale: 8
-        },
-        title: 'Dein Standort',
-        zIndex: 1000
-    });
-    
-    // Add accuracy circle
-    const accuracyCircle = new google.maps.Circle({
-        map: mapInstance,
-        center: location,
-        radius: 30, // Approximate accuracy in meters
-        fillColor: '#4285F4',
-        fillOpacity: 0.15,
-        strokeColor: '#4285F4',
-        strokeOpacity: 0.5,
-        strokeWeight: 1
-    });
-}
-
-function handleLocationError(error) {
-    console.warn(`Standortfehler (${error.code}): ${error.message}`);
-    
-    // Only show alert for permission denied
-    if (error.code === 1) {
-        alert('Bitte erlaube den Zugriff auf deinen Standort, um deine Position auf der Karte zu sehen.');
-    }
-}
-
-// Generate sample data with addresses per day
-function generateSampleData() {
-    const days = [
-        'FREITAG', 'SAMSTAG', 'SONNTAG', 'MONTAG', 'DIENSTAG', 
-        'AUSWÄRTIGER_SAMSTAG', 'AUSWÄRTIGER_SONNTAG'
-    ];
-    
-    const streets = [
-        'Marktplatz', 'Hauptstraße', 'Kirchstraße', 'Bachstraße', 'Bergstraße',
-        'Schillerstraße', 'Goetheweg', 'Mozartstraße', 'Beethovenallee', 'Rathausplatz',
-        'Bahnhofstraße', 'Lindenweg', 'Eichenstraße', 'Tannenweg', 'Birkenallee',
-        'Ahornstraße', 'Ulmenweg', 'Kastanienallee', 'Rosenweg', 'Tulpenstraße'
-    ];
-    
-    const specialEvents = [
-        'Autos nach Marktplatz', 'Autos nach Festplatz', 'Autos nach Rathaus',
-        'Autos nach Bahnhof', 'Autos nach Schule', 'Mittagspause', 'Kurze Pause',
-        'Umzug startet', 'Umzug endet', 'Treffpunkt wechselt'
-    ];
-    
-    const colors = [
-        '#ff6b6b', '#4ecdc4', '#ffe66d', '#1a535c', '#ff9f1c', 
-        '#2ec4b6', '#e71d36', '#ff9f1c', '#6a0572', '#ab83a1'
-    ];
-    
-    const jahrgänge = [
-        '2010', '2011', '2012', '2013', '2014', '2015',
-        '2010, 2011', '2012, 2013', '2014, 2015', 'Alle'
-    ];
-    
-    const firstNames = [
-        'Hans', 'Peter', 'Michael', 'Thomas', 'Andreas', 'Wolfgang', 'Christian', 'Stefan', 'Martin', 'Josef',
-        'Anna', 'Maria', 'Elisabeth', 'Monika', 'Ursula', 'Christine', 'Sabine', 'Petra', 'Claudia', 'Andrea'
-    ];
-    
-    const lastNames = [
-        'Müller', 'Schmidt', 'Schneider', 'Fischer', 'Weber', 'Meyer', 'Wagner', 'Becker', 'Schulz', 'Hoffmann',
-        'Schäfer', 'Koch', 'Bauer', 'Richter', 'Klein', 'Wolf', 'Schröder', 'Neumann', 'Schwarz', 'Zimmermann'
-    ];
-    
-    const data = {};
-    
-    days.forEach(day => {
-        const dayAddresses = [];
-        
-        // Set start time based on day
-        let startHour, startMinute;
-        if (day === 'FREITAG') {
-            startHour = 17;
-            startMinute = 0;
-        } else if (day.includes('SONNTAG')) {
-            startHour = 10;
-            startMinute = 0;
-        } else {
-            startHour = 9;
-            startMinute = 0;
-        }
-        
-        // Generate addresses for the day
-        for (let i = 0; i < 15; i++) { // Reduced to 15 for better mobile performance
-            // Calculate time (increment by 10-20 minutes)
-            startMinute += 10 + Math.floor(Math.random() * 11);
-            if (startMinute >= 60) {
-                startHour += Math.floor(startMinute / 60);
-                startMinute %= 60;
-            }
-            if (startHour >= 24) {
-                startHour %= 24;
-            }
-            
-            const timeStr = `${String(startHour).padStart(2, '0')}:${String(startMinute).padStart(2, '0')}`;
-            
-            // Randomly select street and other attributes
-            const street = streets[Math.floor(Math.random() * streets.length)];
-            const houseNumber = Math.floor(Math.random() * 100) + 1;
-            const jahrgang = jahrgänge[Math.floor(Math.random() * jahrgänge.length)];
-            
-            // Generate a name (90% chance to have a name)
-            const hasName = Math.random() < 0.9;
-            const name = hasName ? 
-                `${firstNames[Math.floor(Math.random() * firstNames.length)]} ${lastNames[Math.floor(Math.random() * lastNames.length)]}` : 
-                null;
-            
-            // 10% chance for colored address
-            const hasColor = Math.random() < 0.1;
-            const color = hasColor ? colors[Math.floor(Math.random() * colors.length)] : 'transparent';
-            
-            // 15% chance for special event
-            const hasSpecialEvent = Math.random() < 0.15;
-            const specialEvent = hasSpecialEvent ? specialEvents[Math.floor(Math.random() * specialEvents.length)] : null;
-            
-            // 60% chance for pause (0-30 minutes)
-            const hasPause = Math.random() < 0.6;
-            const pauseMinutes = hasPause ? Math.floor(Math.random() * 31) : 0;
-            
-            dayAddresses.push({
-                strasse: street,
-                hausnummer: String(houseNumber),
-                uhrzeit: timeStr,
-                jahrgang: jahrgang,
-                name: name,
-                farbe: color,
-                spezialEvent: specialEvent,
-                pause: pauseMinutes
-            });
-        }
-        
-        data[day] = dayAddresses;
-    });
-    
-    return data;
-}
 
 // Load Google Maps API
 function loadGoogleMapsAPI() {
@@ -840,3 +1762,12 @@ window.initMapsCallback = function() {
 
 // Load Google Maps API when the page loads
 window.addEventListener('load', loadGoogleMapsAPI);
+
+async function sendUpdatedAdress(index){
+     await fetch('http://217.160.125.102:80/update', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: '{"id": 1'+(index+1)+', "day": "'+selectedDay+'", "index": '+index+'}'
+      });
+}
+
